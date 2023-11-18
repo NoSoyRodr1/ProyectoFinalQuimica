@@ -7,10 +7,18 @@
     <title>Balotario de Preguntas</title>
 </head>
 <body>
-    <div class="container">
+    <div class="contenedor">
+        <h1>ChemGenius Quest</h1>
         <input type="file" id="fileInput">
         <button id="convertButton" onclick="convertirJSON()">Convertir a JSON</button>
+        <div id="mensaje"></div>
+        <div id="formularioContainer" class="container" style="display: none;">
+            <h2 id="question">Formulario generado:</h2>
+            <form id="formulario"></form>
+            <div id="mensaje1"></div>
+        </div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="script.js"></script>
 </body>

@@ -1,16 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
+    /* Establece el tamaño del fondo y evita que se repita */
+    background-image: url('bb1124f452cc05e5f131b8d0ae9b5881.gif');
+    background-size: 160px; /* Para cubrir toda el área del body */
+    /* Otras propiedades opcionales */
+    background-repeat: repeat; /* Para evitar que se repita */
+    background-attachment: fixed; /* Para que el fondo permanezca fijo */    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-
+.contenedor {
+    background-color: #a2a2a2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 .container {
-    background-color: #148019;
+    background-color: #c6c6c6;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -44,4 +54,7 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+#mensaje {
+    font-size: 30px;
 }
