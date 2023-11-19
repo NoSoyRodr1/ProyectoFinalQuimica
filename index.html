@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Balotario de Preguntas</title>
 </head>
 <body>
     <div class="contenedor">
-        <h1>ChemGenius Quest</h1>
+        <h1 id="titulo">ChemGenius</h1>
         <input type="file" id="fileInput">
-        <button id="convertButton" onclick="convertirJSON()">Convertir a JSON</button>
+        <button id="convertButton" onclick="convertirJSON()">Empezar</button>
         <div id="mensaje"></div>
         <div id="formularioContainer" class="container" style="display: none;">
             <h2 id="question">Formulario generado:</h2>
@@ -18,8 +20,16 @@
             <div id="mensaje1"></div>
         </div>
     </div>
-
+    <div id="dashboard">
+        <button id="top">Top mundial</button>
+    </div>
+    <div id="goku" style="display: none;">
+        <img  src="assets/goku.png" width="360" height="240">
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="firebase.js"></script>
+
 </body>
 </html>

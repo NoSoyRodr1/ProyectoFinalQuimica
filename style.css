@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 body {
     font-family: Arial, sans-serif;
     /* Establece el tamaño del fondo y evita que se repita */
-    background-image: url('bb1124f452cc05e5f131b8d0ae9b5881.gif');
+    background-image: url('assets/bb1124f452cc05e5f131b8d0ae9b5881.gif');
     background-size: 160px; /* Para cubrir toda el área del body */
     /* Otras propiedades opcionales */
     background-repeat: repeat; /* Para evitar que se repita */
@@ -12,19 +15,33 @@ body {
     height: 100vh;
     color: rgb(0, 0, 0);
 }
+#titulo{
+    font-size: 6vw;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 .contenedor {
     background-color: #a2a2a2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container {
     background-color: #c6c6c6;
-    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
 }
 
 form {
@@ -35,26 +52,68 @@ form {
 
 label {
     margin-top: 10px;
+    max-width: 90%;
+    margin-bottom: 20px;
+
 }
 
 input {
-    margin-bottom: 15px;
-    padding: 8px;
-    width: 200px;
+    font-size: 2vw;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 8px;
 }
-
-button {
-    padding: 10px;
+#fileInput {
+    width: 9.5vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#convertButton {
     background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 
-button:hover {
+#convertButton:hover {
     background-color: #45a049;
 }
 #mensaje {
     font-size: 30px;
+}
+
+.formulario {
+    width: 90%;
+    height: 5vh;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+#dashboard {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#top {
+    background-color: #c6c6c6;
+    width: 8vw;
+    height: 6vh;
+}
+#goku {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    width: 360px;
+    height: 240px;
+}
+#question {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vh;
+    margin-top: 1%;
 }
