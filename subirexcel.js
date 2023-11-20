@@ -74,32 +74,32 @@ const fail = new Audio('assets/fail.mp3');
 const nice = new Audio('assets/nice.wav');
 
 function convertirJSON() {
+    var fileInput = document.getElementById('fileInput');
     var button = document.getElementById('convertButton');
     var dow = document.getElementById('dowload');
     var inst = document.getElementById('instrucc');
-    button.style.display = 'none';
-    dow.style.display = 'none';
-    inst.style.display = 'none';
-    const url = 'assets/datos.json';
-    fetch(url)
-  .then(response => response.json()) // Convertir la respuesta a JSON
-  .then(data => {
-    // Asignar el JSON obtenido a una variable
-    var miVariable = data;
-    
-    // Aquí puedes trabajar con miVariable que contiene el JSON
-    console.log(miVariable);
-    jsonResult = miVariable;
-    
-    generarPreguntaAleatoria();
+    const file = fileInput.files[0];
 
+    const reader = new FileReader();
 
-  })
-  .catch(error => {
-    console.error('Error al obtener el archivo JSON:', error);
-  });
+    reader.onload = function (e) {
+        const data = new Uint8Array(e.target.result);
+        const workbook = XLSX.read(data, { type: 'array' });
+
+        // Suponiendo que el archivo XLSX tiene una sola hoja
+        const sheet_name = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheet_name];
+
         // Convertir la hoja a JSON
- // Llamar a la función para generar una pregunta aleatoria
+        jsonResult = XLSX.utils.sheet_to_json(sheet);
+        generarPreguntaAleatoria(); // Llamar a la función para generar una pregunta aleatoria
+    };
+
+    reader.readAsArrayBuffer(file);
+    fileInput.remove();
+    button.remove();
+    dow.remove();
+    inst.remove();
 }
 
 function generarPreguntaAleatoria() {

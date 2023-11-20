@@ -1,0 +1,961 @@
+[
+  {
+    "pregunta": "¿Cuál es el número atómico del hidrógeno?",
+    "correcta": 1,
+    "incorrecta1": 2,
+    "incorrecta2": 3,
+    "incorrecta3": 4
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene el símbolo \"Na\"?",
+    "correcta": "Sodio",
+    "incorrecta1": "Nitrógeno",
+    "incorrecta2": "Neón",
+    "incorrecta3": "Calcio"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del agua?",
+    "correcta": "H2O",
+    "incorrecta1": "CO2",
+    "incorrecta2": "NaCl",
+    "incorrecta3": "HCl"
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del proceso químico por el cual un sólido se convierte en gas sin pasar por la fase líquida?",
+    "correcta": "Sublimación",
+    "incorrecta1": "Evaporación",
+    "incorrecta2": "Condensación",
+    "incorrecta3": "Fusión"
+  },
+  {
+    "pregunta": "¿Qué gas compone aproximadamente el 78% de la atmósfera terrestre?",
+    "correcta": "Nitrógeno",
+    "incorrecta1": "Oxígeno",
+    "incorrecta2": "Dióxido de carbono",
+    "incorrecta3": "Hidrógeno"
+  },
+  {
+    "pregunta": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+    "correcta": "Oxígeno",
+    "incorrecta1": "Hierro",
+    "incorrecta2": "Aluminio",
+    "incorrecta3": "Silicio"
+  },
+  {
+    "pregunta": "¿Cuál es la unidad básica de la materia?",
+    "correcta": "Átomo",
+    "incorrecta1": "Molécula",
+    "incorrecta2": "Electrón",
+    "incorrecta3": "Protón"
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace químico comparten dos átomos al compartir electrones?",
+    "correcta": "Enlace covalente",
+    "incorrecta1": "Enlace iónico",
+    "incorrecta2": "Enlace metálico",
+    "incorrecta3": "Enlace molecular"
+  },
+  {
+    "pregunta": "¿Qué ley de la química establece que la masa se conserva en una reacción química?",
+    "correcta": "Ley de conservación de la masa",
+    "incorrecta1": "Ley de Boyle",
+    "incorrecta2": "Ley de Avogadro",
+    "incorrecta3": "Ley de Dalton"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del dióxido de carbono?",
+    "correcta": "CO2",
+    "incorrecta1": "H2O",
+    "incorrecta2": "SO2",
+    "incorrecta3": "O3"
+  },
+  {
+    "pregunta": "¿Cuántos electrones tiene un átomo neutro de oxígeno?",
+    "correcta": 8,
+    "incorrecta1": 6,
+    "incorrecta2": 10,
+    "incorrecta3": 4
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del potasio?",
+    "correcta": "K",
+    "incorrecta1": "Pt",
+    "incorrecta2": "Po",
+    "incorrecta3": "Pa"
+  },
+  {
+    "pregunta": "¿Qué pH es considerado neutro?",
+    "correcta": 7,
+    "incorrecta1": 5,
+    "incorrecta2": 10,
+    "incorrecta3": 3
+  },
+  {
+    "pregunta": "¿Cuál es la parte del átomo que tiene carga positiva?",
+    "correcta": "Protón",
+    "incorrecta1": "Electrón",
+    "incorrecta2": "Neutrón",
+    "incorrecta3": "Núcleo"
+  },
+  {
+    "pregunta": "¿Qué tipo de reacción química involucra la combinación de un oxígeno con otro compuesto?",
+    "correcta": "Reacción de oxidación",
+    "incorrecta1": "Reacción de reducción",
+    "incorrecta2": "Reacción exotérmica",
+    "incorrecta3": "Reacción endotérmica"
+  },
+  {
+    "pregunta": "¿Cuál es el compuesto principal que compone la cáscara terrestre?",
+    "correcta": "Silicato de aluminio",
+    "incorrecta1": "Dióxido de carbono",
+    "incorrecta2": "Cloruro de sodio",
+    "incorrecta3": "Sulfato de hierro"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso de conversión de un sólido a un líquido?",
+    "correcta": "Fusión",
+    "incorrecta1": "Sublimación",
+    "incorrecta2": "Evaporación",
+    "incorrecta3": "Condensación"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de sodio?",
+    "correcta": "NaCl",
+    "incorrecta1": "CaCl2",
+    "incorrecta2": "HCl",
+    "incorrecta3": "Na2CO3"
+  },
+  {
+    "pregunta": "¿Qué ácido se encuentra en las baterías?",
+    "correcta": "Ácido sulfúrico",
+    "incorrecta1": "Ácido clorhídrico",
+    "incorrecta2": "Ácido acético",
+    "incorrecta3": "Ácido cítrico"
+  },
+  {
+    "pregunta": "¿Qué es un compuesto iónico?",
+    "correcta": "Un compuesto formado por iones",
+    "incorrecta1": "Un compuesto formado por moléculas",
+    "incorrecta2": "Un compuesto formado por átomos neutros",
+    "incorrecta3": "Un compuesto formado por electrones"
+  },
+  {
+    "pregunta": "¿Cuál es la reacción química opuesta a la síntesis?",
+    "correcta": "Análisis",
+    "incorrecta1": "Combustión",
+    "incorrecta2": "Descomposición",
+    "incorrecta3": "Neutralización"
+  },
+  {
+    "pregunta": "¿Cuántos elementos tiene el grupo de los halógenos en la tabla periódica?",
+    "correcta": 5,
+    "incorrecta1": 4,
+    "incorrecta2": 6,
+    "incorrecta3": 7
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del amoníaco?",
+    "correcta": "NH3",
+    "incorrecta1": "H2SO4",
+    "incorrecta2": "CH4",
+    "incorrecta3": "CO2"
+  },
+  {
+    "pregunta": "¿Quién formuló la ley de la conservación de la masa?",
+    "correcta": "Antoine Lavoisier",
+    "incorrecta1": "John Dalton",
+    "incorrecta2": "Dmitri Mendeléyev",
+    "incorrecta3": "Robert Boyle"
+  },
+  {
+    "pregunta": "¿Cuál es el número atómico del sodio?",
+    "correcta": 11,
+    "incorrecta1": 10,
+    "incorrecta2": 12,
+    "incorrecta3": 13
+  },
+  {
+    "pregunta": "¿Qué es un isótopo en química?",
+    "correcta": "Átomos con el mismo número de protones pero diferente número de neutrones",
+    "incorrecta1": "Átomos con diferente número de protones",
+    "incorrecta2": "Iones con diferente carga",
+    "incorrecta3": "Átomos con diferente número de electrones"
+  },
+  {
+    "pregunta": "¿Cuál es el gas responsable del efecto invernadero?",
+    "correcta": "Dióxido de carbono",
+    "incorrecta1": "Metano",
+    "incorrecta2": "Óxidos de nitrógeno",
+    "incorrecta3": "Ozono"
+  },
+  {
+    "pregunta": "¿Qué metal es líquido a temperatura ambiente?",
+    "correcta": "Mercurio",
+    "incorrecta1": "Plata",
+    "incorrecta2": "Cobre",
+    "incorrecta3": "Zinc"
+  },
+  {
+    "pregunta": "¿Cuál es el ácido presente en el jugo de limón?",
+    "correcta": "Ácido cítrico",
+    "incorrecta1": "Ácido acético",
+    "incorrecta2": "Ácido clorhídrico",
+    "incorrecta3": "Ácido sulfúrico"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de hidrógeno?",
+    "correcta": "HCl",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "H2O",
+    "incorrecta3": "CO2"
+  },
+  {
+    "pregunta": "¿Qué es la electronegatividad en química?",
+    "correcta": "La tendencia de un átomo a atraer electrones",
+    "incorrecta1": "La capacidad de un átomo para donar electrones",
+    "incorrecta2": "La capacidad de un átomo para perder electrones",
+    "incorrecta3": "La tendencia de un átomo a formar enlaces iónicos"
+  },
+  {
+    "pregunta": "¿Cuál es el elemento más ligero en la tabla periódica?",
+    "correcta": "Hidrógeno",
+    "incorrecta1": "Helio",
+    "incorrecta2": "Litio",
+    "incorrecta3": "Berilio"
+  },
+  {
+    "pregunta": "¿Qué metal es el mejor conductor de electricidad?",
+    "correcta": "Plata",
+    "incorrecta1": "Cobre",
+    "incorrecta2": "Oro",
+    "incorrecta3": "Aluminio"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de calcio?",
+    "correcta": "CaCl2",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "HCl",
+    "incorrecta3": "AlCl3"
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace químico tiene lugar entre el sodio y el cloro en el cloruro de sodio?",
+    "correcta": "Enlace iónico",
+    "incorrecta1": "Enlace covalente",
+    "incorrecta2": "Enlace metálico",
+    "incorrecta3": "Enlace molecular"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso de separar los componentes de una mezcla utilizando diferencias en los puntos de ebullición?",
+    "correcta": "Destilación",
+    "incorrecta1": "Filtración",
+    "incorrecta2": "Decantación",
+    "incorrecta3": "Evaporación"
+  },
+  {
+    "pregunta": "¿Qué ley de la termodinámica establece que la energía no se crea ni se destruye, solo se transforma?",
+    "correcta": "Primera ley de la termodinámica",
+    "incorrecta1": "Segunda ley de la termodinámica",
+    "incorrecta2": "Ley de Hess",
+    "incorrecta3": "Ley de Avogadro"
+  },
+  {
+    "pregunta": "¿Cuál es la unidad de medida para la cantidad de sustancia en el Sistema Internacional de Unidades (SI)?",
+    "correcta": "Mol",
+    "incorrecta1": "Litro",
+    "incorrecta2": "Gramo",
+    "incorrecta3": "Newton"
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del proceso que implica la transformación de un líquido a gas?",
+    "correcta": "Vaporización",
+    "incorrecta1": "Evaporación",
+    "incorrecta2": "Condensación",
+    "incorrecta3": "Sublimación"
+  },
+  {
+    "pregunta": "¿Cuál es el gas más abundante en la atmósfera de Marte?",
+    "correcta": "Dióxido de carbono",
+    "incorrecta1": "Nitrógeno",
+    "incorrecta2": "Oxígeno",
+    "incorrecta3": "Metano"
+  },
+  {
+    "pregunta": "¿Cuál es el componente principal del aire?",
+    "correcta": "Nitrógeno",
+    "incorrecta1": "Oxígeno",
+    "incorrecta2": "Dióxido de carbono",
+    "incorrecta3": "Argón"
+  },
+  {
+    "pregunta": "¿Qué metal es un componente esencial en las pilas alcalinas?",
+    "correcta": "Manganeso",
+    "incorrecta1": "Zinc",
+    "incorrecta2": "Plomo",
+    "incorrecta3": "Hierro"
+  },
+  {
+    "pregunta": "¿Cuál es el ácido responsable del sabor agrio en las manzanas?",
+    "correcta": "Ácido málico",
+    "incorrecta1": "Ácido cítrico",
+    "incorrecta2": "Ácido acético",
+    "incorrecta3": "Ácido láctico"
+  },
+  {
+    "pregunta": "¿Qué ley establece que la presión de un gas es inversamente proporcional al volumen cuando la temperatura y la cantidad de gas son constantes?",
+    "correcta": "Ley de Boyle",
+    "incorrecta1": "Ley de Charles",
+    "incorrecta2": "Ley de Gay-Lussac",
+    "incorrecta3": "Ley de Avogadro"
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace químico comparten dos átomos al compartir un par de electrones?",
+    "correcta": "Enlace covalente",
+    "incorrecta1": "Enlace iónico",
+    "incorrecta2": "Enlace metálico",
+    "incorrecta3": "Enlace molecular"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del óxido de aluminio?",
+    "correcta": "Al2O3",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "CO2",
+    "incorrecta3": "H2O"
+  },
+  {
+    "pregunta": "¿Qué gas es conocido como gas noble que se utiliza en lámparas de neón?",
+    "correcta": "Neón",
+    "incorrecta1": "Argón",
+    "incorrecta2": "Kriptón",
+    "incorrecta3": "Xenón"
+  },
+  {
+    "pregunta": "¿Cuál es el metal más reactivo?",
+    "correcta": "Francio",
+    "incorrecta1": "Cesio",
+    "incorrecta2": "Litio",
+    "incorrecta3": "Potasio"
+  },
+  {
+    "pregunta": "¿Cuál es el elemento químico con el número atómico 26?",
+    "correcta": "Hierro",
+    "incorrecta1": "Zinc",
+    "incorrecta2": "Cobre",
+    "incorrecta3": "Níquel"
+  },
+  {
+    "pregunta": "¿Qué ácido se encuentra en el vinagre?",
+    "correcta": "Ácido acético",
+    "incorrecta1": "Ácido sulfúrico",
+    "incorrecta2": "Ácido clorhídrico",
+    "incorrecta3": "Ácido cítrico"
+  },
+  {
+    "pregunta": "¿Cuántos electrones tiene un ion con carga positiva?",
+    "correcta": "Menos electrones que protones",
+    "incorrecta1": "Igual número de electrones que protones",
+    "incorrecta2": "Más electrones que protones",
+    "incorrecta3": "Depende del elemento"
+  },
+  {
+    "pregunta": "¿Qué tipo de reacción química involucra la rotura de un compuesto en dos o más sustancias diferentes?",
+    "correcta": "Reacción de descomposición",
+    "incorrecta1": "Reacción de síntesis",
+    "incorrecta2": "Reacción de neutralización",
+    "incorrecta3": "Reacción de oxidación"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso de convertir un gas a líquido?",
+    "correcta": "Condensación",
+    "incorrecta1": "Vaporización",
+    "incorrecta2": "Evaporación",
+    "incorrecta3": "Solidificación"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del óxido de carbono (IV)?",
+    "correcta": "CO2",
+    "incorrecta1": "CO",
+    "incorrecta2": "CO3",
+    "incorrecta3": "CO4"
+  },
+  {
+    "pregunta": "¿Qué es un ácido según la teoría de Arrhenius?",
+    "correcta": "Una sustancia que libera iones de hidrógeno en solución acuosa",
+    "incorrecta1": "Una sustancia que libera iones de oxígeno en solución acuosa",
+    "incorrecta2": "Una sustancia que libera iones de hidróxido en solución acuosa",
+    "incorrecta3": "Una sustancia que libera iones de cloruro en solución acuosa"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso químico que implica la combinación de oxígeno con otro elemento o compuesto?",
+    "correcta": "Reacción de oxidación",
+    "incorrecta1": "Reacción de reducción",
+    "incorrecta2": "Reacción endotérmica",
+    "incorrecta3": "Reacción exotérmica"
+  },
+  {
+    "pregunta": "¿Qué metal es utilizado comúnmente para fabricar cables eléctricos?",
+    "correcta": "Cobre",
+    "incorrecta1": "Aluminio",
+    "incorrecta2": "Oro",
+    "incorrecta3": "Plata"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del peróxido de hidrógeno?",
+    "correcta": "H2O2",
+    "incorrecta1": "HO",
+    "incorrecta2": "H2O",
+    "incorrecta3": "H2CO3"
+  },
+  {
+    "pregunta": "¿Quién es conocido por la formulación de la tabla periódica de los elementos?",
+    "correcta": "Dmitri Mendeléyev",
+    "incorrecta1": "Marie Curie",
+    "incorrecta2": "Albert Einstein",
+    "incorrecta3": "Isaac Newton"
+  },
+  {
+    "pregunta": "¿Cuál es el elemento más pesado en la tabla periódica?",
+    "correcta": "Ogmio",
+    "incorrecta1": "Plutonio",
+    "incorrecta2": "Uranio",
+    "incorrecta3": "Neptunio"
+  },
+  {
+    "pregunta": "¿Cuántos elementos están actualmente en la tabla periódica?",
+    "correcta": 118,
+    "incorrecta1": 120,
+    "incorrecta2": 114,
+    "incorrecta3": 122
+  },
+  {
+    "pregunta": "¿Cuál es la carga eléctrica de un ion cloruro?",
+    "correcta": -1,
+    "incorrecta1": 1,
+    "incorrecta2": 0,
+    "incorrecta3": -2
+  },
+  {
+    "pregunta": "¿Cuál es el gas responsable del olor característico de los fósforos?",
+    "correcta": "Fosfina",
+    "incorrecta1": "Metano",
+    "incorrecta2": "Etano",
+    "incorrecta3": "Propano"
+  },
+  {
+    "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "correcta": "Aluminio",
+    "incorrecta1": "Hierro",
+    "incorrecta2": "Calcio",
+    "incorrecta3": "Magnesio"
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del hierro?",
+    "correcta": "Fe",
+    "incorrecta1": "Ir",
+    "incorrecta2": "H",
+    "incorrecta3": "He"
+  },
+  {
+    "pregunta": "¿Qué ley establece que los volúmenes de gases que reaccionan entre sí están en una relación de números enteros simples?",
+    "correcta": "Ley de las proporciones definidas",
+    "incorrecta1": "Ley de Avogadro",
+    "incorrecta2": "Ley de Gay-Lussac",
+    "incorrecta3": "Ley de los gases ideales"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del sulfato de sodio?",
+    "correcta": "Na2SO4",
+    "incorrecta1": "NaSO4",
+    "incorrecta2": "Na2SO3",
+    "incorrecta3": "NaHSO4"
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene la sigla \"Fe\"?",
+    "correcta": "Hierro",
+    "incorrecta1": "Fósforo",
+    "incorrecta2": "Fluoruro",
+    "incorrecta3": "Francio"
+  },
+  {
+    "pregunta": "¿Qué tipo de reacción química involucra la combinación de un metal con oxígeno?",
+    "correcta": "Reacción de oxidación",
+    "incorrecta1": "Reacción de reducción",
+    "incorrecta2": "Reacción endotérmica",
+    "incorrecta3": "Reacción exotérmica"
+  },
+  {
+    "pregunta": "¿Cuál es el ácido responsable del sabor amargo en las naranjas?",
+    "correcta": "Ácido cítrico",
+    "incorrecta1": "Ácido acético",
+    "incorrecta2": "Ácido clorhídrico",
+    "incorrecta3": "Ácido sulfúrico"
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el proceso de conversión de un gas a un sólido?",
+    "correcta": "Condensación",
+    "incorrecta1": "Solidificación",
+    "incorrecta2": "Sublimación",
+    "incorrecta3": "Evaporación"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del ácido clorhídrico?",
+    "correcta": "HCl",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "H2O",
+    "incorrecta3": "CO2"
+  },
+  {
+    "pregunta": "¿Qué elemento tiene la mayor electronegatividad en la tabla periódica?",
+    "correcta": "Flúor",
+    "incorrecta1": "Oxígeno",
+    "incorrecta2": "Cloro",
+    "incorrecta3": "Hidrógeno"
+  },
+  {
+    "pregunta": "¿Cuál es el componente principal del gas natural?",
+    "correcta": "Metano",
+    "incorrecta1": "Propano",
+    "incorrecta2": "Etano",
+    "incorrecta3": "Butano"
+  },
+  {
+    "pregunta": "¿Cuál es el número atómico del carbono?",
+    "correcta": 6,
+    "incorrecta1": 8,
+    "incorrecta2": 10,
+    "incorrecta3": 12
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene el símbolo \"Na\"?",
+    "correcta": "Sodio (Na)",
+    "incorrecta1": "Nitrógeno (N)",
+    "incorrecta2": "Neón (Ne)",
+    "incorrecta3": "Níquel (Ni)"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del agua?",
+    "correcta": "H2O",
+    "incorrecta1": "CO2",
+    "incorrecta2": "NaCl",
+    "incorrecta3": "H2SO4"
+  },
+  {
+    "pregunta": "¿Qué gas es más abundante en la atmósfera terrestre?",
+    "correcta": "Nitrógeno (N2)",
+    "incorrecta1": "Oxígeno (O2)",
+    "incorrecta2": "Dióxido de carbono",
+    "incorrecta3": "Argón (Ar)"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso químico fundamental en la fotosíntesis?",
+    "correcta": "Fotosíntesis",
+    "incorrecta1": "Respiración celular",
+    "incorrecta2": "Fermentación",
+    "incorrecta3": "Quimiosíntesis"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del dióxido de carbono?",
+    "correcta": "CO2",
+    "incorrecta1": "CO",
+    "incorrecta2": "O2",
+    "incorrecta3": "H2O"
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace comparten los átomos en el agua?",
+    "correcta": "Covalente",
+    "incorrecta1": "Iónico",
+    "incorrecta2": "Metálico",
+    "incorrecta3": "Van der Waals"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de sodio?",
+    "correcta": "NaCl",
+    "incorrecta1": "NaOH",
+    "incorrecta2": "HCl",
+    "incorrecta3": "Na2CO3"
+  },
+  {
+    "pregunta": "¿Cuál es la unidad básica de la materia?",
+    "correcta": "Átomo",
+    "incorrecta1": "Molécula",
+    "incorrecta2": "Partícula",
+    "incorrecta3": "Electrón"
+  },
+  {
+    "pregunta": "¿Qué número representa la constante de Avogadro?",
+    "correcta": "6.022 × 10^23",
+    "incorrecta1": 3.1416,
+    "incorrecta2": 9.81,
+    "incorrecta3": 2.718
+  },
+  {
+    "pregunta": "¿Cuál es el gas más liviano y abundante en el universo?",
+    "correcta": "Hidrógeno (H2)",
+    "incorrecta1": "Helio (He)",
+    "incorrecta2": "Oxígeno (O2)",
+    "incorrecta3": "Metano (CH4)"
+  },
+  {
+    "pregunta": "¿Qué es un ácido según la teoría de Arrhenius?",
+    "correcta": "Donador de protones",
+    "incorrecta1": "Donador de electrones",
+    "incorrecta2": "Electronegativo",
+    "incorrecta3": "Base"
+  },
+  {
+    "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "correcta": "Aluminio (Al)",
+    "incorrecta1": "Hierro (Fe)",
+    "incorrecta2": "Cobre (Cu)",
+    "incorrecta3": "Plomo (Pb)"
+  },
+  {
+    "pregunta": "¿Qué significa pH en química?",
+    "correcta": "Potencial de hidrógeno",
+    "incorrecta1": "Potencial de oxígeno",
+    "incorrecta2": "Potencial de hierro",
+    "incorrecta3": "Potencial de plata"
+  },
+  {
+    "pregunta": "¿Qué tipo de reacción química libera energía en forma de calor y luz?",
+    "correcta": "Exotérmica",
+    "incorrecta1": "Endotérmica",
+    "incorrecta2": "Redox",
+    "incorrecta3": "Ácido-base"
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"H2SO4\" en química?",
+    "correcta": "Ácido sulfúrico",
+    "incorrecta1": "Dióxido de azufre",
+    "incorrecta2": "Ácido clorhídrico",
+    "incorrecta3": "Sulfato de hidrógeno"
+  },
+  {
+    "pregunta": "¿Cuál es el gas responsable del efecto invernadero?",
+    "correcta": "Dióxido de carbono (CO2)",
+    "incorrecta1": "Metano (CH4)",
+    "incorrecta2": "Óxidos de nitrógeno",
+    "incorrecta3": "Ozono (O3)"
+  },
+  {
+    "pregunta": "¿Qué es un isótopo en química?",
+    "correcta": "Átomos con igual número de protones y diferente número de neutrones",
+    "incorrecta1": "Iones con carga opuesta",
+    "incorrecta2": "Moléculas con misma fórmula",
+    "incorrecta3": "Elementos en estado gaseoso"
+  },
+  {
+    "pregunta": "¿Qué es la ley de conservación de la masa?",
+    "correcta": "La masa no se crea ni se destruye, solo se transforma en una reacción química",
+    "incorrecta1": "La masa cambia en cada reacción",
+    "incorrecta2": "La masa es infinita",
+    "incorrecta3": "La masa depende de la temperatura"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de hidrógeno?",
+    "correcta": "HCl",
+    "incorrecta1": "H2SO4",
+    "incorrecta2": "NaClO",
+    "incorrecta3": "Cl2"
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene el símbolo \"Fe\"?",
+    "correcta": "Hierro (Fe)",
+    "incorrecta1": "Flúor (F)",
+    "incorrecta2": "Fósforo (P)",
+    "incorrecta3": "Francio (Fr)"
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"DNA\" en biología?",
+    "correcta": "Ácido desoxirribonucleico",
+    "incorrecta1": "Proteína",
+    "incorrecta2": "Vitamina",
+    "incorrecta3": "Carbohidrato"
+  },
+  {
+    "pregunta": "¿Cuál es el compuesto principal en la estructura de los huesos?",
+    "correcta": "Hidroxiapatita",
+    "incorrecta1": "Ácido úrico",
+    "incorrecta2": "Calcio fosfato",
+    "incorrecta3": "Carbonato de calcio"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del ácido clorhídrico?",
+    "correcta": "HCl",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "H2SO4",
+    "incorrecta3": "Cl2"
+  },
+  {
+    "pregunta": "¿Cuál es la valencia del oxígeno en la mayoría de los compuestos?",
+    "correcta": -2,
+    "incorrecta1": 2,
+    "incorrecta2": 0,
+    "incorrecta3": -1
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"CO2\" en química?",
+    "correcta": "Dióxido de carbono",
+    "incorrecta1": "Monóxido de carbono",
+    "incorrecta2": "Trióxido de carbono",
+    "incorrecta3": "Tetraóxido de carbono"
+  },
+  {
+    "pregunta": "¿Cuál es la la representación más simple y básica de un compuesto químico iónico?",
+    "correcta": "Fórmula unitaria",
+    "incorrecta1": "Molécula",
+    "incorrecta2": "Átomo",
+    "incorrecta3": "Electrón"
+  },
+  {
+    "pregunta": "¿Qué propiedad se mide en la escala de pH?",
+    "correcta": "Acidez o alcalinidad",
+    "incorrecta1": "Temperatura",
+    "incorrecta2": "Densidad",
+    "incorrecta3": "Viscosidad"
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del proceso que separa los componentes de una mezcla por la diferencia de puntos de ebullición?",
+    "correcta": "Destilación",
+    "incorrecta1": "Filtración",
+    "incorrecta2": "Cromatografía",
+    "incorrecta3": "Sublimación"
+  },
+  {
+    "pregunta": "¿Qué es un catalizador en una reacción química?",
+    "correcta": "Sustancia que acelera la reacción sin consumirse",
+    "incorrecta1": "Sustancia que disminuye la velocidad de reacción",
+    "incorrecta2": "Producto final de la reacción",
+    "incorrecta3": "Sustancia que detiene la reacción"
+  },
+  {
+    "pregunta": "¿Cuál es el metal más reactivo?",
+    "correcta": "Francio (Fr)",
+    "incorrecta1": "Litio (Li)",
+    "incorrecta2": "Sodio (Na)",
+    "incorrecta3": "Potasio (K)"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del ácido sulfúrico?",
+    "correcta": "H2SO4",
+    "incorrecta1": "HCl",
+    "incorrecta2": "HNO3",
+    "incorrecta3": "H3PO4"
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"RNA\" en biología?",
+    "correcta": "Ácido ribonucleico",
+    "incorrecta1": "Proteína",
+    "incorrecta2": "Vitamina",
+    "incorrecta3": "Carbohidrato"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del dihidrógeno monóxido?",
+    "correcta": "H2O",
+    "incorrecta1": "CO2",
+    "incorrecta2": "NH3",
+    "incorrecta3": "CH4"
+  },
+  {
+    "pregunta": "¿Cuál es la carga eléctrica del protón?",
+    "correcta": "Positiva (+1)",
+    "incorrecta1": "Negativa (-1)",
+    "incorrecta2": "Neutra",
+    "incorrecta3": "Variable"
+  },
+  {
+    "pregunta": "¿Cuál es la unidad básica de la masa en el sistema internacional de unidades (SI)?",
+    "correcta": "Kilogramo (kg)",
+    "incorrecta1": "Gramo (g)",
+    "incorrecta2": "Miligramo (mg)",
+    "incorrecta3": "Microgramo (µg)"
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del potasio?",
+    "correcta": "K",
+    "incorrecta1": "Po",
+    "incorrecta2": "Pt",
+    "incorrecta3": "Pu"
+  },
+  {
+    "pregunta": "¿Qué propiedad física define la tendencia de un átomo a perder electrones?",
+    "correcta": "Electronegatividad",
+    "incorrecta1": "Radio atómico",
+    "incorrecta2": "Energía de ionización",
+    "incorrecta3": "Afinidad electrónica"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso que convierte un sólido directamente en gas sin pasar por el estado líquido?",
+    "correcta": "Sublimación",
+    "incorrecta1": "Evaporación",
+    "incorrecta2": "Fusión",
+    "incorrecta3": "Condensación"
+  },
+  {
+    "pregunta": "¿Cuál es el metal líquido a temperatura ambiente?",
+    "correcta": "Mercurio (Hg)",
+    "incorrecta1": "Plata (Ag)",
+    "incorrecta2": "Hierro (Fe)",
+    "incorrecta3": "Aluminio (Al)"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del ácido nítrico?",
+    "correcta": "HNO3",
+    "incorrecta1": "HCl",
+    "incorrecta2": "H2SO4",
+    "incorrecta3": "H3PO4"
+  },
+  {
+    "pregunta": "¿Qué es una solución en química?",
+    "correcta": "Mezcla homogénea de dos o más sustancias",
+    "incorrecta1": "Mezcla heterogénea",
+    "incorrecta2": "Compuesto químico",
+    "incorrecta3": "Elemento químico"
+  },
+  {
+    "pregunta": "¿Cuál es el componente principal del petróleo?",
+    "correcta": "Hidrocarburos",
+    "incorrecta1": "Oxígeno",
+    "incorrecta2": "Hidrógeno",
+    "incorrecta3": "Carbono"
+  },
+  {
+    "pregunta": "¿Qué es un elemento químico?",
+    "correcta": "Sustancia pura que no puede descomponerse en sustancias más simples por métodos químicos",
+    "incorrecta1": "Compuesto químico",
+    "incorrecta2": "Mezcla homogénea",
+    "incorrecta3": "Mezcla heterogénea"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso químico que libera energía a partir de la combustión de un combustible?",
+    "correcta": "Oxidación",
+    "incorrecta1": "Reducción",
+    "incorrecta2": "Fotosíntesis",
+    "incorrecta3": "Fermentación"
+  },
+  {
+    "pregunta": "¿Cuál es el número atómico del oxígeno?",
+    "correcta": 8,
+    "incorrecta1": 6,
+    "incorrecta2": 10,
+    "incorrecta3": 12
+  },
+  {
+    "pregunta": "¿Qué es un compuesto en química?",
+    "correcta": "Sustancia pura formada por la unión de dos o más elementos en proporciones fijas",
+    "incorrecta1": "Mezcla homogénea",
+    "incorrecta2": "Elemento químico",
+    "incorrecta3": "Mezcla heterogénea"
+  },
+  {
+    "pregunta": "¿Cuál es el gas responsable del olor acre de las piscinas?",
+    "correcta": "Cloro (Cl2)",
+    "incorrecta1": "Bromo (Br2)",
+    "incorrecta2": "Flúor (F2)",
+    "incorrecta3": "Yodo (I2)"
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene el símbolo \"Hg\"?",
+    "correcta": "Mercurio (Hg)",
+    "incorrecta1": "Hidrógeno (H)",
+    "incorrecta2": "Magnesio (Mg)",
+    "incorrecta3": "Manganeso (Mn)"
+  },
+  {
+    "pregunta": "¿Cuál es el componente principal del aire?",
+    "correcta": "Nitrógeno (N2) y Oxígeno (O2)",
+    "incorrecta1": "Dióxido de carbono",
+    "incorrecta2": "Argón (Ar)",
+    "incorrecta3": "Neón (Ne)"
+  },
+  {
+    "pregunta": "¿Qué es una reacción de neutralización en química?",
+    "correcta": "Reacción entre un ácido y una base que produce agua y una sal",
+    "incorrecta1": "Reacción entre dos ácidos",
+    "incorrecta2": "Reacción entre dos bases",
+    "incorrecta3": "Reacción de oxidación"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de calcio?",
+    "correcta": "CaCl2",
+    "incorrecta1": "NaCl",
+    "incorrecta2": "KCl",
+    "incorrecta3": "MgCl2"
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"H2O2\" en química?",
+    "correcta": "Peróxido de hidrógeno",
+    "incorrecta1": "Cloruro de hidrógeno",
+    "incorrecta2": "Oxígeno diatómico",
+    "incorrecta3": "Dióxido de hidrógeno"
+  },
+  {
+    "pregunta": "¿Cuál es el gas que las plantas liberan durante la fotosíntesis?",
+    "correcta": "Oxígeno (O2)",
+    "incorrecta1": "Dióxido de carbono",
+    "incorrecta2": "Hidrógeno (H2)",
+    "incorrecta3": "Nitrógeno (N2)"
+  },
+  {
+    "pregunta": "¿Qué es un enlace iónico en química?",
+    "correcta": "Unión entre átomos con transferencia de electrones",
+    "incorrecta1": "Unión entre átomos por compartir electrones",
+    "incorrecta2": "Unión entre moléculas por fuerzas de Van der Waals",
+    "incorrecta3": "Unión entre moléculas por enlace covalente polar"
+  },
+  {
+    "pregunta": "¿Cuál es el proceso de formación de un sólido a partir de un líquido?",
+    "correcta": "Solidificación",
+    "incorrecta1": "Vaporización",
+    "incorrecta2": "Fusión",
+    "incorrecta3": "Condensación"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del cloruro de hidrógeno?",
+    "correcta": "HCl",
+    "incorrecta1": "NaClO",
+    "incorrecta2": "Cl2",
+    "incorrecta3": "H2SO4"
+  },
+  {
+    "pregunta": "¿Cuál es la carga eléctrica del electrón?",
+    "correcta": "Negativa (-1)",
+    "incorrecta1": "Positiva (+1)",
+    "incorrecta2": "Neutra",
+    "incorrecta3": "Variable"
+  },
+  {
+    "pregunta": "¿Qué es un átomo en química?",
+    "correcta": "Unidad básica de la materia que consta de protones, neutrones y electrones",
+    "incorrecta1": "Compuesto químico",
+    "incorrecta2": "Elemento químico",
+    "incorrecta3": "Mezcla homogénea"
+  },
+  {
+    "pregunta": "¿Cuál es el número atómico del hidrógeno?",
+    "correcta": 1,
+    "incorrecta1": 2,
+    "incorrecta2": 3,
+    "incorrecta3": 4
+  },
+  {
+    "pregunta": "¿Qué representa la sigla \"CH4\" en química?",
+    "correcta": "Metano",
+    "incorrecta1": "Etano",
+    "incorrecta2": "Propano",
+    "incorrecta3": "Butano"
+  },
+  {
+    "pregunta": "¿Cuál es el metal usado comúnmente para fabricar cables eléctricos debido a su alta conductividad?",
+    "correcta": "Cobre (Cu)",
+    "incorrecta1": "Aluminio (Al)",
+    "incorrecta2": "Plata (Ag)",
+    "incorrecta3": "Hierro (Fe)"
+  },
+  {
+    "pregunta": "¿Qué es la ley de las proporciones definidas en química?",
+    "correcta": "Los elementos se combinan en proporciones fijas para formar compuestos",
+    "incorrecta1": "Los elementos se combinan en diferentes proporciones para formar compuestos",
+    "incorrecta2": "Los elementos pueden cambiar sus proporciones en los compuestos",
+    "incorrecta3": "Los compuestos no tienen proporciones fijas de elementos"
+  }
+]
