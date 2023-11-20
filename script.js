@@ -3,63 +3,6 @@ var preguntasRespondidas = [];
 var jsonResult = []; // Variable para almacenar el resultado JSON
 var indiceAleatorio = []
 let puntajes = {};
-
-document.getElementById('dowload').addEventListener('click', function() {
-    const fileURL = 'assets/preguntas.xlsx'; // Ruta del archivo a descargar
-
-    fetch(fileURL)
-        .then(response => response.blob())
-        .then(blob => {
-            // Crear un enlace temporal (a) para descargar el archivo
-            const a = document.createElement('a');
-            a.style.display = 'none';
-            document.body.appendChild(a);
-
-            // Crear una URL para el blob del archivo
-            const url = window.URL.createObjectURL(blob);
-            a.href = url;
-            a.download = 'preguntas.xlsx'; // Nombre del archivo al descargar
-
-            // Simular clic en el enlace para iniciar la descarga
-            a.click();
-
-            // Limpiar el objeto URL y remover el enlace
-            window.URL.revokeObjectURL(url);
-            document.body.removeChild(a);
-        })
-        .catch(error => {
-            console.error('Error al descargar el archivo:', error);
-        });
-});
-
-document.getElementById('instrucc').addEventListener('click', function() {
-    const fileURL = 'assets/instrucciones.txt'; // Ruta del archivo a descargar
-
-    fetch(fileURL)
-        .then(response => response.blob())
-        .then(blob => {
-            // Crear un enlace temporal (a) para descargar el archivo
-            const a = document.createElement('a');
-            a.style.display = 'none';
-            document.body.appendChild(a);
-
-            // Crear una URL para el blob del archivo
-            const url = window.URL.createObjectURL(blob);
-            a.href = url;
-            a.download = 'instrucciones.txt'; // Nombre del archivo al descargar
-
-            // Simular clic en el enlace para iniciar la descarga
-            a.click();
-
-            // Limpiar el objeto URL y remover el enlace
-            window.URL.revokeObjectURL(url);
-            document.body.removeChild(a);
-        })
-        .catch(error => {
-            console.error('Error al descargar el archivo:', error);
-        });
-});
-
 var firebaseConfig = {
     apiKey: "AIzaSyCug3Dr-M4dc_xF9wF2u6X-4lWrp5HLmL8",
     authDomain: "chemgenius-quest.firebaseapp.com",
@@ -75,14 +18,12 @@ var db = firebase.firestore();
 
 const fail = new Audio('assets/fail.mp3');
 const nice = new Audio('assets/nice.wav');
+const empezar = new Audio('assets/empezar.wav')
 
 function convertirJSON() {
+    empezar.play();
     var button = document.getElementById('convertButton');
-    var dow = document.getElementById('dowload');
-    var inst = document.getElementById('instrucc');
     button.style.display = 'none';
-    dow.style.display = 'none';
-    inst.style.display = 'none';
     const url = 'assets/datos.json';
     fetch(url)
         .then(response => response.json()) // Convertir la respuesta a JSON
@@ -253,7 +194,10 @@ function formulario(datos) {
             };
             const botonNo = document.createElement('button');
             botonNo.textContent = 'No';
-            botonNo.onclick = reiniciarFormulario;
+            botonNo.onclick = function() {
+                empezar.play();
+                reiniciarFormulario();
+            };
 
             mensaje.appendChild(document.createElement('br')); // Salto de línea
             mensaje.appendChild(botonSi);
@@ -265,12 +209,14 @@ function formulario(datos) {
             // Crear botones Sí y No para volver a intentar
             const botonSi = document.createElement('button');
             botonSi.textContent = 'Sí';
-            botonSi.onclick = reiniciarFormulario;
-
+            botonSi.onclick = function(){
+                empezar.play();
+                reiniciarFormulario();
+            }
             const botonNo = document.createElement('button');
             botonNo.textContent = 'No';
             botonNo.onclick = function() {
-                window.close();
+                location.reload();
             };
 
             mensaje.appendChild(document.createElement('br')); // Salto de línea
