@@ -8,7 +8,8 @@ body {
     background-size: 160px; /* Para cubrir toda el área del body */
     /* Otras propiedades opcionales */
     background-repeat: repeat; /* Para evitar que se repita */
-    background-attachment: fixed; /* Para que el fondo permanezca fijo */    margin: 0;
+    background-attachment: fixed; /* Para que el fondo permanezca fijo */
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;

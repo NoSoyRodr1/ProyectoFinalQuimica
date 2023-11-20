@@ -218,9 +218,7 @@ function formulario(datos) {
                     agregarPuntajeAutomatico(nickname, puntaje);
                     console.log(puntajes);
                     const asignTop = (puntajes) => {
-                      const docId = 'marcadores'; // Reemplaza con el ID del documento que deseas actualizar
-                  
-                      // Supongamos que puntajes es un objeto que quieres agregar al documento existente
+                      const docId = 'marcadores';
                       const puntajesObj = {
                           nuevosPuntajes: puntajes
                       };
