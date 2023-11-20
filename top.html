@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Top 10 Puntuaciones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="top.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="chem">
+        <button id="chemG" onclick="window.location.href='index.html'">Volver a ChemGenius</button>
+    </div>
+    <h1 id="titulo">Top Puntuaciones</h1>
+  <table id="tablaPuntuaciones">
+    <thead>
+      <tr>
+        <th>Usuario</th>
+        <th>Puntuación</th>
+      </tr>
+    </thead>
+    <tbody id="cuerpoTabla">
+      <!-- Aquí se insertarán las filas de la tabla -->
+    </tbody>
+  </table>
+
+
+  <script src="top.js"></script>
+</body>
+</html>

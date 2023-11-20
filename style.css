@@ -29,7 +29,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,7 +38,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0%;
@@ -52,19 +52,36 @@ form {
 
 label {
     margin-top: 10px;
-    max-width: 90%;
     margin-bottom: 20px;
-
+    width: 90%;
+    word-wrap: break-word;
 }
 
-input {
-    font-size: 2vw;
+#opciones-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+#opciones {
+    flex: 1; /* El input ocupa todo el espacio restante */
+    padding: 8px;
+    font-size: 24px;
     font-family: 'Inconsolata', monospace;
     border-radius: 8px;
+    word-wrap: break-word;
+}
+#opciones:hover {
+    flex: 1; /* El input ocupa todo el espacio restante */
+    padding: 8px;
+    font-size: 24px;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 8px;
+    word-wrap: break-word;
+    background-color: #a2a2a2;
 }
 #fileInput {
-    width: 9.5vw;
-    font-size: 1vw;
+    width: 13.8vw;
+    font-size: 1.5vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -77,14 +94,36 @@ input {
     cursor: pointer;
     font-size: 30px;
     font-family: 'Kdam Thmor Pro', sans-serif;
-
 }
 
 #convertButton:hover {
     background-color: #45a049;
 }
+#dowload {
+    background-color: #4caf4f95;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 3vw;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position: absolute;
+    top: 0;
+}
+
+#dowload:hover {
+    background-color: #45a049;
+}
 #mensaje {
     font-size: 30px;
+    word-wrap: break-word;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-line;
+
 }
 
 .formulario {
@@ -99,21 +138,310 @@ input {
     top: 0;
     right: 0;
 }
-#top {
-    background-color: #c6c6c6;
-    width: 8vw;
+#instrucc {
+    background-color: #7700008a;
+    width: 25vw;
     height: 6vh;
-}
-#goku {
+    border-color: transparent;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2vw;
+    display: block;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 999;
-    width: 360px;
-    height: 240px;
+    top: 0;
+    left: 0;
 }
+#top {
+    background-color: #7700008a;
+    width: 25vw;
+    height: 6vh;
+    border-color: transparent;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2vw;
+}
+
 #question {
     font-family: 'Work Sans', sans-serif;
     font-size: 4vh;
     margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    word-wrap: break-word;
+}
+input[type="text" i] {
+    font-size: 1.4vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    padding: 0;
+    width: 13.2vw;
+    font-family: 'Inconsolata', monospace;
+
+}
+button {
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace;
+}
+button:hover {
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace;
+    background-color: red;
+}
+@media (max-width: 1400px) {
+    input[type="text" i] {
+        font-size: 2.2vw;
+        width: 21vw;
+        font-family: 'Inconsolata', monospace;
+    }
+    button {
+        font-size: 2vw;
+        font-family: 'Inconsolata', monospace;
+    }
+    button:hover {
+        font-size: 1.5vw;
+        font-family: 'Inconsolata', monospace;
+        background-color: red;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        /* Establece el tamaño del fondo y evita que se repita */
+        background-image: url('assets/bb1124f452cc05e5f131b8d0ae9b5881.gif');
+        background-size: 150px; /* Para cubrir toda el área del body */
+        /* Otras propiedades opcionales */
+        background-repeat: repeat; /* Para evitar que se repita */
+        background-attachment: fixed; /* Para que el fondo permanezca fijo */    margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: rgb(0, 0, 0);
+    }
+    .contenedor {
+        background-color: #a2a2a2;
+        padding: 4%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        background-color: #c6c6c6;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+    }
+    /* Ajustes para tamaños de pantalla más pequeños (móviles) */
+    #titulo {
+        font-size: 10vw;
+    }
+
+    #convertButton {
+        font-size: 10vw;
+    }
+
+    #mensaje {
+        font-size: 1.2rem;
+        line-height: 6vw;
+        width: 90%;
+    }
+
+    #question {
+        font-size: 5vw;
+        margin-top: 6%;
+        margin-bottom: 0;
+    }
+    label {
+        margin-top: 10px;
+        margin-bottom: 2vh;
+        width: 90%;
+        word-wrap: break-word;
+    }
+    
+    #opciones-group {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        white-space: pre-line;
+      }
+    #opciones {
+        flex: 1; /* El input ocupa todo el espacio restante */
+        padding: 8px;
+        font-size: 5vw;
+        font-family: 'Inconsolata', monospace;
+        border-radius: 8px;
+        word-wrap: break-word;
+        margin-bottom: 0;
+        white-space: pre-line;
+    }
+    #opciones:hover {
+        flex: 1; /* El input ocupa todo el espacio restante */
+        padding: 8px;
+        font-size: 5vw;
+        font-family: 'Inconsolata', monospace;
+        border-radius: 8px;
+        word-wrap: break-word;
+        margin-bottom: 0;
+        white-space: pre-line;
+        background-color: #a2a2a2;
+    }
+    #dashboard {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #top {
+        background-color: #7700008a;
+        width: 25vw;
+        height: 6vh;
+        border-color: transparent;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 3vw;
+    }
+    #fileInput {
+        width: 46vw;
+        font-size: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        border-color: transparent;
+    }
+    input[type="text" i] {
+        font-size: 5vw;
+        width: 46vw;
+        font-family: 'Inconsolata', monospace;
+    }
+    button {
+        font-size: 3vw;
+        font-family: 'Inconsolata', monospace;
+    }
+    button:hover {
+        font-size: 1.5vw;
+        font-family: 'Inconsolata', monospace;
+        background-color: red;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-family: Arial, sans-serif;
+        /* Establece el tamaño del fondo y evita que se repita */
+        background-image: url('assets/bb1124f452cc05e5f131b8d0ae9b5881.gif');
+        background-size: 130px; /* Para cubrir toda el área del body */
+        /* Otras propiedades opcionales */
+        background-repeat: repeat; /* Para evitar que se repita */
+        background-attachment: fixed; /* Para que el fondo permanezca fijo */    margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: rgb(0, 0, 0);
+    }
+    /* Ajustes para tamaños de pantalla más pequeños (móviles) */
+    #titulo {
+        font-size: 10vw;
+    }
+    .contenedor {
+        background-color: #a2a2a2;
+        padding: 4%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        background-color: #c6c6c6;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+    }
+    #convertButton {
+        font-size: 10vw;
+    }
+
+    #mensaje {
+        font-size: 1.2rem;
+        line-height: 6vw;
+        width: 90%;
+    }
+
+    #question {
+        font-size: 4vw;
+        margin-top: 6%;
+        margin-bottom: 0;
+    }
+    label {
+        margin-top: 10px;
+        margin-bottom: 2vh;
+        width: 90%;
+        word-wrap: break-word;
+    }
+    #fileInput {
+        width: 46vw;
+        font-size: 4.8vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    #opciones-group {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        white-space: pre-line;
+      }
+    #opciones {
+        flex: 1; /* El input ocupa todo el espacio restante */
+        padding: 8px;
+        font-size: 5vw;
+        font-family: 'Inconsolata', monospace;
+        border-radius: 8px;
+        word-wrap: break-word;
+        margin-bottom: 0;
+        white-space: pre-line;
+    }
+    #opciones:hover {
+        flex: 1; /* El input ocupa todo el espacio restante */
+        padding: 8px;
+        font-size: 5vw;
+        font-family: 'Inconsolata', monospace;
+        border-radius: 8px;
+        word-wrap: break-word;
+        margin-bottom: 0;
+        white-space: pre-line;
+        background-color: #a2a2a2;
+    }
+    #dashboard {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #top {
+        background-color: #7700008a;
+        width: 25vw;
+        height: 6vh;
+        border-color: transparent;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 3vw;
+    }
 }

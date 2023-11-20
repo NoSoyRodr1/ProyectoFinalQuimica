@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    background-image: url('./assets/fondo2.jpg');
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.1vw black; /* Ajustado para ser más visible */
+    font-family: 'Mukta', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table {
+    width: 80%;
+    margin: 1% auto;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 2vw;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 1vw;
+}
+
+th, td {
+    border: 0.1vw solid #000000;
+    padding: 0.5%;
+    text-align: center;
+}
+
+th {
+    background-color: #0058b038;
+}
+#chem {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#chemG {
+    font-size: 2vw;
+    background-color: rgba(0, 128, 0, 0.545);
+    color: white;
+    border-color: transparent;
+    font-family: 'Mukta', sans-serif;
+}
+/* Media query para ajustar estilos en pantallas más pequeñas */
+@media screen and (max-width: 1576px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 2%;
+        background-color: rgb(201, 244, 201);
+        background-image: none;
+    }
+    #titulo {
+        font-size: 8vw; /* Cambio de tamaño para títulos en pantallas más pequeñas */
+    }
+    table {
+        width: 95%; /* Cambio de ancho de tabla para adaptarse a pantallas más pequeñas */
+        font-size: 4vw; /* Cambio de tamaño de fuente para tablas en pantallas más pequeñas */
+    }
+    th, td {
+        padding: 1%; /* Ajuste de espacio entre celdas en pantallas más pequeñas */
+
+    }
+    th {
+        background-color: rgb(6, 173, 6);
+    }
+}

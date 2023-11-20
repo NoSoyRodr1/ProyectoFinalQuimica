@@ -1,0 +1,12 @@
+		¡¡¡Bienvenido a ChemGenius!!!
+Instrucciones para utilizar ChemGenius:
+1. Descarga las preguntas
+2. Presiona el botón "seleccionar archivo" y sube el archivo excel que 
+   se descargó
+3. Luego dale al botón empezar y desafiate :)
+
+Puedes obtener una plantilla para generar tus propias preguntas
+que igual funcionen en ChemGenius en este repositorio:
+-> https://github.com/NoSoyRodr1/assets/blob/main/modelo.xlsx
+
+A por el top!!!
